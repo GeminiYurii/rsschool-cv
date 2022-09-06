@@ -42,10 +42,10 @@ function validatePIN (pin) {
 ```
 
 #### Education:
-   *freeCodeCamp:
-      +Responsive Web Design
-      +Legacy Responsive Web Design
-      +Basic JavaScript
+   freeCodeCamp courses:
+      Responsive Web Design
+      Legacy Responsive Web Design
+      Basic JavaScript
 
 #### Level of English:
 A2-B1
