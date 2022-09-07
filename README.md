@@ -1,1 +1,1 @@
-https://geminiyurii.github.io/rsschool-cv
+https://geminiyurii.github.io/rsschool-cv/
