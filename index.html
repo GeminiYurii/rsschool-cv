@@ -3,44 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>cv</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Yurii Mukiienko</h1>
-    <img src="photo-profile.png" alt="photo-profile">
-    <h3>Contact information:</h3>
-    <p>Phone: +380974837850</p>
-    <p>E-mail: yura.mukienko@gmail.com</p>
-    <h3>About Myself:</h3>
-    <p>
-      I want to become a Frontend developer Passed HTML, CSS course on the
-      freeCodeCamp resource I study English, I read texts of level A2 - B1.
-    </p>
-    <h3>Skills:</h3>
-    <ul>
-      <li>HTML5;</li>
-      <li>CSS3;</li>
-      <li>VSCode</li>
-    </ul>
-    <h3>Code Example:</h3>
-    <p>
-      Write a program that finds the summation of every number from 1 to num.
-      The number will always be a positive integer greater than 0.
-    </p>
-    <pre>
-      <code>var summation = function (num) {
-          let sum = num;
-          for(let i = 1; i  num; i++){
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <h1 class="section-title name_cv">Yurii Mukiienko</h1>
+        <img class="image" src="assets/img/photo-profile.png" alt="photo-profile">
+      </section>
+      <section class="section" id="Contacts">
+        <h2 class="section-title">Contact information:</h2>
+        <p>&#9742; Phone: +380974837850</p>
+        <p>&#9993; E-mail: yura.mukienko@gmail.com</p>
+      </section>
+      <section class="section" id="Summary">
+        <h2 class="section-title">About Myself:</h2>
+      <p>
+        I want to become a Frontend developer<br>
+        Passed HTML, CSS course on the
+        freeCodeCamp resource<br>
+        I study English, I read texts of level A2 - B1.
+       </p>
+      </section>
+      <section class="section" id="Skills">
+        <h2 class="section-title">Skills:</h2>
+        <ul>
+          <li>HTML5;</li>
+          <li>CSS3;</li>
+          <li>VSCode</li>
+         </ul>
+      </section>
+      <section class="section" id="Code">
+        <h2 class="section-title">Code Example:</h2>
+        <p>
+          Write a program that finds the summation of every number from 1 to num.<br>
+          The number will always be a positive integer greater than 0.
+        </p>
+        <pre>
+          <code>
+            var summation = function (num) {
+            let sum = num;
+            for(let i = 1; i &lt; num; i++){
             sum += i; }
             return sum;
-         }
-      </code>
-   </pre>
-    <h3>Experience:</h3>
-    <h3>Education:</h3>
-    <p>taking courses on freeCodeCamp</p>
-    <h3>Level of English:</h3>
-    <p>B2</p>
+            }
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="Experience">
+        <h2 class="section-title">Experience:</h2>
+        <div class="experience">
+          <a href="https://geminiyurii.github.io/rsschool-cv/cv">
+            <figure>
+              <img class="projects" src="assets/img/Markdown_&_Git.png" alt="CV#1. Markdown & Git">
+              <figcaption><h3>CV#1. Markdown & Git</h3></figcaption>
+            </figure>
+          </a>
+          <a href="https://geminiyurii.github.io/rsschool-cv">
+            <figure>
+              <img class="projects" src="assets/img/HTML_CSS_&_Git_Basics.png" alt="CV#2. HTML, CSS & Git Basics">
+              <figcaption><h3>CV#2. HTML, CSS & Git Basics</h3></figcaption>
+            </figure>
+          </a>
+        </div>
+          
+      </section>
+    <section class="section" id="Education">
+      <h2 class="section-title">Education:</h2>
+      <p>taking courses on freeCodeCamp</p>
+    </section>
+    <section class="section" id="English">
+      <h2 class="section-title">Level of English:</h2>
+      <p>A1 - B2</p>
+    </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">&#169; 2023 &emsp;&emsp;<a class="github" href="https://github.com/GeminiYurii"><img src="assets/svg/iconmonstr-github-1.svg" alt="github_icon">&emsp;GeminiYurii</a></p>
+      <p class="rss"><a href="https://rs.school/js-stage0/"><img src="assets/svg/rs_school_js.svg" alt="rss_logo"></a></p>
+    </div>
+  </footer>
 </body>
 </html>
